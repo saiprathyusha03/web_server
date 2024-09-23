@@ -1,0 +1,61 @@
+#main{
+    color: blue;
+}
+body{
+    background-color: #f4f4f4;
+    color: #555555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+   /* Same as above command
+    font: normal 12px Arial,Helvetica,sans-serif;*/
+    line-height: 1.6em;
+    margin: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.para-1 {
+    background-color: aqua;
+    border-left: 5px red solid;
+    padding: 20px
+    
+}
+
+.catagories{
+    background-color: #555555;
+    color: antiquewhite;
+    border: 10px white solid;
+    border-radius: 15px;
+    padding: 20px;
+
+}
+
+.catagories ul{
+    list-style: none;
+    
+}
+
+.catagories li {
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    list-style-image: url('C:/Users/abcd/Desktop/web_developement_projects/Images/check.jpg');
+}
+
+a {
+  text-decoration: none;
+  font-size: 12px;
+  color: black;
+}
+
+a:hover{
+    color: white;
+}
+
+a:active{
+    color: aqua;
+}
+a:visited{
+    
+}
